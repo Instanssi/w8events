@@ -1,5 +1,6 @@
 *.pfx
 *.user
+*.suo
 InstanssiEventsViewer/bin
 InstanssiEventsViewer/obj
 InstanssiEventsViewer/AppPackages
