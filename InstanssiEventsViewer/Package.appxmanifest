@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="19407Katajakasa.InstanssiEventsViewer" Publisher="CN=43A757CB-1D6B-4868-96C8-719EDC8D8F44" Version="1.0.0.2" />
+  <Properties>
+    <DisplayName>InstanssiEventsViewer</DisplayName>
+    <PublisherDisplayName>Katajakasa</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="InstanssiEventsViewer.App">
+      <VisualElements DisplayName="InstanssiEventsViewer" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="InstanssiEventsViewer" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" ShortName="InstanssiEvents" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
